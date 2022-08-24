@@ -21,6 +21,10 @@ footer {
   background: #1f2937;
 }
 
+.right-align {
+  flex-direction: row-reverse;
+}
+
 /* Hero secondary text, header link text*/
 header-link-text,
 .hero-secondary-text {
@@ -36,7 +40,7 @@ header-logo {
   display: flex;
   flex-grow: 1;
 }
-.hero-text-body {
+.hero-text-body, .sign-up {
   flex-direction: column;
 }
 
@@ -46,7 +50,7 @@ header-logo {
   font-weight: 800;
   color: #f9faf8;
 }
-#button1 {
+#button1, #button2 {
   background: #3882f6;
   font-weight: 800;
   font-size: 18px;
@@ -79,10 +83,11 @@ header-logo {
 }
 .text {
   font-size: 18px;
-  width: 150px;
 }
 .quote {
 }
-
+.call-to-action {
+  font-size: 18px;
+}
 footer {
 }
